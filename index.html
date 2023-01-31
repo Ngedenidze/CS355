@@ -1,6 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<body>hello world</body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Home Page</title>
+</head>
+
+<body id="root">
+    <h1>Home page!</h1>
+    <br>
+    <br>
+    <div class="pictures">
+        <img src="img/home1.jpg" alt="building" style="max-width:300px ;">
+        <img src="img/home5.jpeg" alt="building" style="max-width:300px ;">
+        <img src="img/home6.png" alt="building" style="max-width:300px ;">
+        <img src="img/home8.jpg" alt="building" style="max-width:300px ;">
+    </div>
+
+    <br>
+    <br>
+    <div> <h2>Why do we use it?</h2>
+        It is a long established fact that a reader will be distracted by the readable content of a page when looking at
+        its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+        opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+        packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'
+        will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
+        accident, sometimes on purpose (injected humour and the like).</div>
+    <br>
+    <button onclick="navigate_database()">Go to Database Page!</button>
+    <button onclick="navigate_login()">Go to Login Page!</button>
+    <button onclick="change_green()">Change to green!</button>
+    <button onclick="back_green()"> Change back!</button>
+    <script src="src/script.js"></script>
+</body>
 
 </html>
