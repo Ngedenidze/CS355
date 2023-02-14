@@ -1,56 +1,98 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;700&display=swap');
-*{
-  margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;700&display=swap");
+* {
   list-style: none;
-  padding: 0;
   text-decoration: none;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
-  
+  font-family: "Montserrat", sans-serif;
+  padding: 5px;
+  margin: 5px;
+  min-height: 3em;
+  border-radius: 5px;
 }
-:root{
+:root {
   --item-color: #3e3e3e;
   --text-color: #ebe4e4;
 }
-h1{
-    position: relative;
-    left: 45%;
+h1 {
+  position: relative;
+  left: 45%;
 }
-button{
-    padding: 10px;
-    margin: 10px; 
-    border: #3e3e3e;
-    border-radius: 5%;
+button {
+  padding: 10px;
+  margin: 10px;
+  border: #3e3e3e;
+  border-radius: 5%;
 }
-body{
-    display: inline;
+body {
+  display: inline;
 }
-img{
-    margin: 20px;
-    padding: 20px;
+img {
+  margin: 20px;
+  padding: 20px;
 }
-input{
-    pointer-events: none;
-    cursor: none;
-}
-
-.pictures{
-
-    display: flex;
+input {
+  pointer-events: none;
+  cursor: none;
 }
 
-.color-brown{
-    display: inline;
-    height: auto;
-    width: 400px;
-    color: #3e3e3e;
-    background-color: brown;
+.pictures {
+  display: flex;
 }
 
-.color-green{
-    background-color: green;
+.color-brown {
+  display: inline;
+  height: auto;
+  width: 400px;
+  color: #3e3e3e;
+  background-color: brown;
 }
 
-.color-blue{
-    background-color: blue;
+.color-green {
+  background-color: green;
+}
+
+.color-blue {
+  background-color: blue;
+}
+* {
+}
+
+.completed {
+  background-color: rgb(38, 183, 123);
+}
+.root {
+  height: 100%;
+  width: 400px;
+  padding: 10px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  background-color: goldenrod;
+}
+.items > div {
+  border: solid 1px gray;
+  padding: 10px;
+}
+
+.header {
+  background-color: rgb(31, 118, 161);
+}
+
+.footer {
+  background-color: rgb(31, 118, 161);
+}
+.header h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(38, 183, 123);
+}
+
+.newItem {
+  background-color: rgb(247, 247, 17);
+}
+textarea {
+  width: 100%;
 }

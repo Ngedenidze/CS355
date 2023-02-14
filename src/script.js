@@ -38,3 +38,18 @@ const navigate_login = () => {
     window.location.href = 'login-page.html';
    
 };
+
+var counter = 1;
+function createNewToDo(){
+    
+    const d = document.createElement('div');
+    d.className = "newItem";
+    
+    $('.items').appendChild(d);
+    d.innerHTML = counter + '.' + $('.newtodo').value;
+    $('.newtodo').value = '';
+    counter++; 
+    d.onclick = function(){
+        d.className = 'completed';
+    }
+};
